@@ -20,12 +20,12 @@ body {
 
 /*header*/
 header {
-    background-color: lightgoldenrodyellow;
+    background-color: whitesmoke;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #FFF325;
 }
 
 header a {
@@ -36,7 +36,21 @@ header a {
 h1 {
     font-family: 'Red Hat', sans-serif;
     letter-spacing: 2px;
-    color: #004C6A
+    color: #2A5CAA
+}
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #2A5CAA;
 }
 
 /*main*/
