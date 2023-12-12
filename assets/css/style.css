@@ -82,11 +82,14 @@ nav {
     font-size: 2rem;
 }
 
+/* Main content */
+
 /*main*/
 main {
     background-color: yellowgreen;
     /* Ensures main element fills screen and pushes the footer down*/
     flex: 1 0 auto;
+    margin-top: 115px;
 }
 
 /*footer*/
