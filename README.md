@@ -1,7 +1,9 @@
 # Beekeeping with the Honey Bee
 
-Beekeeping with the Honey Bee is designed to offer a window into the world of beekeeping
-with the honey bee. I have been beekeeping for just over five years and I remember many of the basic questions before I started the hobbey, such as what is the difference between honey bees and bumblebees, what is in a beehive, and how do you actually get the honey?! I hope to answer these questions in a clear and interesting manner and so my target audience would be people with a general / casual interest in bees and beekeeping, and nature in general. Hopefully the site will entertain the more experienced beekeeper along the way as well, but they are not my target audience here.
+This website is designed to offer a window into the world of beekeeping
+with the honey bee. I have been beekeeping for just over five years and I well remember many of the basic questions I had before I started the hobbey, such as what is the difference between honey bees and bumblebees, what is in a beehive, and how do you actually get the honey?! This is why I have included 'honey bee' in the title of the website, because I don't think it is clear to everyone that honey bees are the specific type of bee kept by beekeepers.
+
+I hope to answer such questions in a clear and interesting manner and so my target audience is people with a general / casual interest in bees and beekeeping, and nature in general. Hopefully the site will entertain the more experienced beekeeper along the way, but they are not my target audience at this point; that would be my next step - exploring and presenting more specialised beekeeping topics that would attract practising beekeepers as well.
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
