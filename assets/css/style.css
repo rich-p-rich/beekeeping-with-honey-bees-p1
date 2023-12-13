@@ -89,7 +89,7 @@ main {
     background-color: yellowgreen;
     /* Ensures main element fills screen and pushes the footer down*/
     flex: 1 0 auto;
-    margin-top: 75px;
+    margin-top: 115px;
 }
 
 /*footer*/
@@ -97,8 +97,9 @@ footer {
     background-color: lightskyblue;
 }
 
-/* Media query: tablets and larger (768px and up) */ 
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -112,7 +113,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -125,10 +126,10 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
-    /* Main content */
-    main {
-    /* Push main content down for larger header*/
-    margin-top: 160px;    
-    }
 }
+
+/* Media query: laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a
+    }
