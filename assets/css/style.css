@@ -82,6 +82,12 @@ nav {
     font-size: 2rem;
 }
 
+#nav-toggle-label {
+    color: #2A5CAA;
+    vertical-align: bottom;
+    padding: 2px;
+}
+
 /* Main content */
 
 /*main*/
@@ -93,8 +99,18 @@ main {
 }
 
 /*footer*/
-footer {
-    background-color: lightskyblue;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none; 
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #2A5CAA;
 }
 
 /* Media query: tablets and larger (768px and up) */
