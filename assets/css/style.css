@@ -89,7 +89,7 @@ main {
     background-color: yellowgreen;
     /* Ensures main element fills screen and pushes the footer down*/
     flex: 1 0 auto;
-    margin-top: 44px;
+    margin-top: 75px;
 }
 
 /*footer*/
@@ -118,5 +118,17 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+    /* Push main content down for larger header*/
+    margin-top: 160px;    
     }
 }
