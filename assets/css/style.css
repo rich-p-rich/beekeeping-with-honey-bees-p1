@@ -92,10 +92,16 @@ nav {
 
 /*main*/
 main {
-    background-color: yellowgreen;
     /* Ensures main element fills screen and pushes the footer down*/
     flex: 1 0 auto;
     margin-top: 115px;
+}
+
+/*hero section*/
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /*footer*/
@@ -145,15 +151,10 @@ main {
 }
 
 /* Media query: small and larger (884px and up) */
-@media screen and (min-width: 884px) 
-.main {margin-top: 100px;
-}
-
 
 /* Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-#menu a:hover {
-        border-bottom: 1px solid #3a3a3a}    
-.main {margin-top: 20px;
-} 
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a
     }
+}
