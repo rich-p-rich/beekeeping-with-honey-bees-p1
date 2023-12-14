@@ -18,6 +18,15 @@ body {
     font-family: 'Yantramanav', sans-serif;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Red Hat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: whitesmoke
+}
+
 /*header*/
 header {
     background-color: #007CC7;
@@ -34,13 +43,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Red Hat', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: whitesmoke
 }
 
 #menu {
@@ -84,8 +86,7 @@ nav {
 
 #nav-toggle-label {
     color: whitesmoke;
-    vertical-align: flex;
-    padding: 2px;
+    padding: 5px;
 }
 
 /* Main content */
@@ -99,9 +100,26 @@ main {
 
 /*hero section*/
 #hero {
-    width: 100%;
     height: 600px;
+    width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(255, 255, 128, .5);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text>h2,
+#cover-text>h3 {
+    color: black;
 }
 
 /*footer*/
@@ -145,16 +163,8 @@ main {
 
     #logo {
         font-size: 200%;
+
         line-height: 75px;
         margin: 0 0.5rem;
-    }
-}
-
-/* Media query: small and larger (884px and up) */
-
-/* Media query: laptops and larger (992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a
     }
 }
