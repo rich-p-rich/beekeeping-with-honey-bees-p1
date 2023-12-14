@@ -20,12 +20,12 @@ body {
 
 /*header*/
 header {
-    background-color: whitesmoke;
+    background-color: #007CC7;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #FFF325;
+    box-shadow: 0 2px 2px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -40,7 +40,7 @@ h1 {
     font-family: 'Red Hat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #2A5CAA
+    color: whitesmoke
 }
 
 #menu {
@@ -83,8 +83,8 @@ nav {
 }
 
 #nav-toggle-label {
-    color: #2A5CAA;
-    vertical-align: bottom;
+    color: whitesmoke;
+    vertical-align: flex;
     padding: 2px;
 }
 
