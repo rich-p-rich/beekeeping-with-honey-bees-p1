@@ -109,7 +109,7 @@ main {
 #cover-text {
     background-color: rgba(255, 255, 128, .5);
     font-size: 130%;
-    position: absolute;
+    display: flex;
     bottom: 30px;
     width: 80%;
     min-height: 200px;
@@ -118,7 +118,7 @@ main {
 }
 
 #cover-text>h2 {
-    color: #2A5CAA;
+    color: #007CC7
 }
 
 /*footer*/
