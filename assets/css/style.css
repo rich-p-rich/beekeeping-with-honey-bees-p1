@@ -117,9 +117,8 @@ main {
     padding-left: 10px;
 }
 
-#cover-text>h2,
-#cover-text>h3 {
-    color: black;
+#cover-text>h2 {
+    color: #2A5CAA;
 }
 
 /*footer*/
