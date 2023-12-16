@@ -25,13 +25,19 @@ h1 {
     padding: 0;
 }
 
-h1,
+h1 {
+    font-family: 'Red Hat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: whitesmoke
+}
+
 h2,
 h3 {
     font-family: 'Red Hat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: whitesmoke
+    color: #007CC7;
 }
 
 /*header*/
@@ -45,6 +51,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    line-height: 1em;
 }
 
 header a {
@@ -103,6 +110,7 @@ main {
     /* Ensures main element fills screen and pushes the footer down*/
     flex: 1 0 auto;
     margin-top: 100px;
+
 }
 
 /*hero section*/
@@ -128,6 +136,13 @@ main {
     color: #007CC7;
 }
 
+#introduction {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 /*footer*/
 #social-networks {
     text-align: center;
@@ -145,8 +160,9 @@ main {
 
 /*Media query: devices with 350px and up */
 @media screen and (min-width: 350px) {
-    /* To remove margin gap between header and main body with header flattens out*/
-    margin-top: 60px;
+    main {
+        margin-top: 75px;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -161,6 +177,11 @@ main {
         padding-right: 1rem;
         margin: 0;
         padding: 0;
+        line-height: 1em;
+    }
+
+    main {
+        margin-top: 75px;
     }
 
     #menu {
