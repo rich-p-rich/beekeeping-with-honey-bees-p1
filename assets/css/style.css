@@ -51,7 +51,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    line-height: 1em;
+    line-height: 3em;
 }
 
 header a {
@@ -99,7 +99,7 @@ nav {
 }
 
 #nav-toggle-label {
-    color: whitesmoke;
+    color: #F0F695;
     padding: 5px;
 }
 
@@ -109,7 +109,7 @@ nav {
 main {
     /* Ensures main element fills screen and pushes the footer down*/
     flex: 1 0 auto;
-    margin-top: 100px;
+    margin-top: 135px;
 
 }
 
@@ -158,10 +158,10 @@ main {
     color: #007CC7;
 }
 
-/*Media query: devices with 350px and up */
-@media screen and (min-width: 350px) {
+/*Media query: devices with 350px to 767px and up: to account for changing header size */
+@media screen and (min-width: 350px) and (max-width: 767px) {
     main {
-        margin-top: 75px;
+        margin-top: 60px;
     }
 }
 
