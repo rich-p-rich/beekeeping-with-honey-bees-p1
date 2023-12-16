@@ -13,9 +13,16 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
     /*Project styles*/
     color: #3a3a3a;
     font-family: 'Yantramanav', sans-serif;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
 }
 
 h1,
@@ -95,7 +102,7 @@ nav {
 main {
     /* Ensures main element fills screen and pushes the footer down*/
     flex: 1 0 auto;
-    margin-top: 115px;
+    margin-top: 100px;
 }
 
 /*hero section*/
@@ -118,7 +125,7 @@ main {
 }
 
 #cover-text>h2 {
-    color: #007CC7
+    color: #007CC7;
 }
 
 /*footer*/
@@ -133,7 +140,13 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #2A5CAA;
+    color: #007CC7;
+}
+
+/*Media query: devices with 350px and up */
+@media screen and (min-width: 350px) {
+    /* To remove margin gap between header and main body with header flattens out*/
+    margin-top: 60px;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -146,6 +159,8 @@ main {
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
+        margin: 0;
+        padding: 0;
     }
 
     #menu {
@@ -162,7 +177,6 @@ main {
 
     #logo {
         font-size: 200%;
-
         line-height: 75px;
         margin: 0 0.5rem;
     }
