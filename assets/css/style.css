@@ -32,6 +32,7 @@ h1 {
     color: whitesmoke
 }
 
+/* To give text in the body a different colour to that in the header */
 h2,
 h3 {
     font-family: 'Red Hat', sans-serif;
@@ -143,8 +144,28 @@ main {
     }
 }
 
+/*Honey Bees Page */
+
+body {
+    /*To keep the content from overlapping the footer*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    height: 600px;
+    width: 100%;
+    background: url("../images/white-honeycomb.webp") no-repeat center center/cover;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+
 /*footer*/
 #social-networks {
+    margin-top: auto;
     text-align: center;
     padding: 20px 0;
     display: flex;
