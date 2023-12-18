@@ -77,13 +77,14 @@ header a {
 /*Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: whitesmoke;
+    background-color: #007CC7;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #FFF325;
     display: none;
     top: 100%;
+    color: whitesmoke
 }
 
 /*Nav toggle */
@@ -91,12 +92,16 @@ nav {
     display: block;
 }
 
+.active {
+    color: whitesmoke;
+}
+
 #nav-toggle {
     display: none;
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 #nav-toggle-label {
@@ -118,7 +123,7 @@ main
 
 /*hero section*/
 #hero {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
@@ -152,6 +157,10 @@ main
     min-height: 300px;
 }
 
+#intro-text {
+    margin-right: 150px;
+}
+
 /*Honey Bees Page */
 body {
     /*To keep the content from overlapping the footer*/
@@ -174,6 +183,9 @@ main
     position: relative;
 }
 
+#crocus-caption {
+    padding-left: 5px;
+}
 
 /*footer*/
 #social-networks {
