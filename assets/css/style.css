@@ -1,4 +1,4 @@
-/*Google fonts impot*/
+/*Google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 
 /* Asterisk wildcard selector to override default styles from browser*/
@@ -105,10 +105,20 @@ nav {
     padding: 5px;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /* Main content */
 
 /*main*/
-main {
+main
+
+/*homepage*/
+    {
     /* Ensures main element fills screen and pushes the footer down*/
     flex: 1 0 auto;
     margin-top: 135px;
@@ -137,29 +147,13 @@ main {
     color: #007CC7;
 }
 
-#introduction {
+#introduction img {
     max-width: 100%;
     height: auto;
 }
 
-honeybee-homepage-img {
-    padding: 10px;
-    padding-left: 10px;
-    padding-right: 5px;
-}
-
-#bee-intro-image {
-    padding: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
-    min-width: 300px;
-    min-height: 200px;
-    width: auto;
-    height: auto;
-}
-
 #intro-text {
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 /*Honey Bees Page */
@@ -173,14 +167,23 @@ body {
 
 main {
     height: 600px;
+    width: 100%;
+    flex: 1 0 auto;
+    background: url("../images/white-honeycomb.webp") no-repeat center center/cover;
+    background-color: whitesmoke;
+    position: relative;
 }
 
-/*hero section*/
-#hero {
-    height: 800px;
-    width: 100%;
-    background: url("../images/bee-types.webp") no-repeat center center/cover;
-    position: relative;
+#bee-type-img {
+    margin-top: 100px;
+    min-height: 353px;
+    min-width: 600px;
+    aspect-ratio: auto;
+    padding: 10px;
+}
+
+#queens-workers-drones {
+    margin-left: 20px;
 }
 
 /*footer*/
@@ -209,110 +212,70 @@ main {
 /*Media query: devices with minimum 500px width and up (to position text) */
 @media screen and (min-width: 500px) {
     .container {
-        body {
-            /*To keep the content from overlapping the footer*/
-            min-height: 100vh;
-            >>>>>>>463b4f0bb2fffe3dfc0d6213ae28a449869d1006 display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
 
-        main
+    img {
+        max-width: 100%
+    }
 
-        /*honey bee page*/
-            {
-            height: 600px;
-            width: 100%;
-            margin-top: 135px;
-            flex: 1 0 auto;
-            background: url("../images/white-honeycomb.webp") no-repeat center center/cover;
-            background-color: whitesmoke;
-            position: relative;
-        }
+    .image {
+        flex-basis: 40%
+    }
 
-        #bee-intro-caption {
-            padding-left: 5px;
-        }
+    .text {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+}
 
-        /*footer*/
-        #social-networks {
-            margin-top: auto;
-            text-align: center;
-            padding: 20px 0;
-            display: flex;
-            justify-content: space-evenly;
-            list-style-type: none;
-        }
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
 
-        #social-networks i {
-            font-size: 160%;
-            padding: 5%;
-            color: #007CC7;
-        }
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        margin: 0;
+        padding: 0;
+        line-height: 1em;
+    }
 
-        /*Media query: devices with 350px to 767px and up: to account for changing header size */
-        @media screen and (min-width: 350px) and (max-width: 767px) {
-            main {
-                margin-top: 60px;
-            }
-        }
+    main {
+        margin-top: 150px;
+    }
 
-        /*Media query: devices with minimum 500px width and up (to position text) */
-        @media screen and (min-width: 500px) {
-            .container {
-                display: flex;
-                align-items: center;
-                justify-content: center
-            }
+    #menu {
+        display: flex;
+    }
 
-            img {
-                max-width: 100%
-            }
+    #menu>li {
+        padding-left: 1rem;
+    }
 
-            .image {
-                flex-basis: 40%
-            }
+    .nav-toggle-label {
+        display: none;
+    }
 
-            .text {
-                font-size: 20px;
-                padding-left: 20px;
-            }
-        }
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
 
-        /* Media query: tablets and larger (768px and up) */
-        @media screen and (min-width: 768px) {
+    #bee-type-img {
+        margin-top: 75px;
+    }
+}
 
-            /* Header */
-            nav {
-                display: block;
-                position: relative;
-                box-shadow: none;
-                width: fit-content;
-                padding-right: 1rem;
-                margin: 0;
-                padding: 0;
-                line-height: 1em;
-            }
-
-            main {
-                margin-top: 75px;
-            }
-
-            #menu {
-                display: flex;
-            }
-
-            #menu>li {
-                padding-left: 1rem;
-            }
-
-            .nav-toggle-label {
-                display: none;
-            }
-
-            #logo {
-                font-size: 200%;
-                line-height: 75px;
-                margin: 0 0.5rem;
-            }
-        }
+/* Media query: tablets and larger (1024px and up) */
+@media screen and (min-width: 1024px) {
+    main {
+        margin-top: 75px;
+    }
+}
