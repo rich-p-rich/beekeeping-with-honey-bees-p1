@@ -186,6 +186,14 @@ main {
     margin-left: 20px;
 }
 
+#queen-bee-img {
+    margin-top: 5px;
+    min-width: 500px;
+    min-height: 462px;
+    width: auto;
+    height: auto padding: 10px;
+}
+
 /*footer*/
 #social-networks {
     margin-top: auto;
