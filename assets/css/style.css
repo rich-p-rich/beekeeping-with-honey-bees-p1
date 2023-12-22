@@ -112,6 +112,15 @@ nav {
     width: 50%;
 }
 
+.img-box {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.left {
+    float: left;
+}
+
 /* Main content */
 
 /*main*/
@@ -152,7 +161,7 @@ main
     height: auto;
 }
 
-#intro-text {
+#homepage-intro-img #intro-text {
     margin-right: 100px;
 }
 
@@ -178,7 +187,7 @@ main {
     margin-top: 100px;
     min-height: 353px;
     min-width: 600px;
-    aspect-ratio: auto;
+    width: auto;
     padding: 10px;
 }
 
@@ -253,16 +262,16 @@ main {
 @media screen and (min-width: 500px) {
     .container {
         display: flex;
-        align-items: center;
-        justify-content: center
+        align-items: left;
+        justify-content: left;
     }
 
     img {
-        max-width: 100%
+        max-width: 100%;
     }
 
     .image {
-        flex-basis: 40%
+        flex-basis: 40%;
     }
 
     .text {
