@@ -9,8 +9,13 @@
 }
 
 /* General styles */
+
+html {
+    height: 100%;
+}
+
 body {
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -109,7 +114,7 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
 }
 
 .left {
@@ -127,7 +132,7 @@ main {
     margin-top: 135px;
 }
 
-/*hero section*/
+/*Homepage hero section*/
 #hero {
     height: 800px;
     width: 100%;
@@ -164,13 +169,14 @@ main {
     margin-right: 10px;
 }
 
-/*Honey Bees Page */
+/*Bees Page */
 body {
     /*To keep the content from overlapping the footer*/
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -249,7 +255,7 @@ main {
 
 #contact {
     margin-top: 5px;
-    padding-left: 5px;
+    padding-left: 15px;
     padding-right: 5px;
 }
 
@@ -257,12 +263,19 @@ main {
 /*footer*/
 
 footer {
-    align-self: flex-end;
+    position: fixed;
+    width: 100%;
+    height: 2em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #007CC7;
+    text: whitesmoke;
     margin-top: auto;
+    padding: 1em;
 }
 
 #social-networks {
-    margin-top: auto;
     text-align: center;
     padding: 20px 0;
     display: flex;
@@ -273,7 +286,7 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #007CC7;
+    color: whitesmoke;
 }
 
 /*Media query: devices with 350px to 767px and up: to account for changing header size */
@@ -343,9 +356,20 @@ footer {
     }
 }
 
-/* Media query: tablets and larger (1024px and up) */
+/* Media query: small laptops and larger (1024px and up) */
 @media screen and (min-width: 1024px) {
     main {
         margin-top: 75px;
+    }
+
+    footer {
+        position: relative;
+        width: 100%;
+        height: 2em;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #007CC7;
+        text: whitesmoke;
     }
 }
