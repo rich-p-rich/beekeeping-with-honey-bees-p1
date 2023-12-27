@@ -5,69 +5,59 @@ with the honey bee. I have been beekeeping for just over five years and I well r
 
 I hope to answer such questions in a clear and interesting manner and so my target audience is people with a general / casual interest in bees and beekeeping, and nature in general. Hopefully the site will entertain the more experienced beekeeper along the way, but they are not my target audience at this point; that would be my next step - exploring and presenting more specialised beekeeping topics that would attract practising beekeepers as well.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+<https://rich-p-rich.github.io/beekeeping-with-honey-bees-p1/>
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
 - **Navigation Bar**
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  - The navbar can be found on all three pages. It is fully responsive, with a clicklable logo, and links to the home, bee and contact pages.
+  - The navbar is accessible via a three bar 'burger' for screens up to 767 pixels while the individual items present themselves as plain links in screens 768 pixels and over.
+  - The navbar is designed to help users easily navigate from page to page across all devices.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar] IMAGE of burger icon plus full screen option
 
 - **The landing page image**
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to.
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
-
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
-
-- **Club Ethos Section**
-
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall.
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise.
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- **Meetup Times section**
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers.
-  - This section will be updated as these times change to keep the user up to date.
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+  - Visitors to the wqebsite find an image of a honey bee approaching a flower with a short accompanying text to illustrate what the site is about.  
+    ![Landing Page](https://raw.githubusercontent.com/rich-p-rich/beekeeping-with-honey-bees-p1/main/assets/images/honey-bees-intro.webp)
 
 - **The Footer**
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user.
+  - The footer section includes links to an instagram page which they could follow and contribute their own material.
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- **Gallery**
+- **The Bee Page**
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like.
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together.
+  - The Bee page introduces the visitor to the three types of honey bee: queen, drone and worker. These are shown in a single image at the top of the page so they understand the basic phyiscal differences in appearance before they read about each bee in detail.
+  - This section is valuable to the user as it breaks down the different physical characteristics, roles and behaviour of each type of bee.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Bees](https://raw.githubusercontent.com/rich-p-rich/beekeeping-with-honey-bees-p1/main/assets/images/bee-types.webp)
 
-- **The Sign Up Page**
+- Each bee is then introduce with a separate image and accompanying text to explain in detail what they are, what they do and how they contribute to the overall success of the hive:
+  ![Queen]
+  ![Worker]
+  ![Drone]
+- This is valuable to the user as the role and lives of each type of bee is very different and needs to be clarified in detail; when I started beekeeping, I was unaware of these differences and, from speaking to friends about my hobby, it is clear that this is quite normal.
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address.
+- **Contact Page**
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+  - This page is intended as a portal for those who have any questions about the hobbey; in the long-run, it would also be a place to sign up for a newsletter that offers monthly and seasonal hints and tips for beekeepers of all levels of experience.
+  - The image is intended to make the page more attractive.
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Contact]
 
 ### Features Left to Implement
 
-- Another feature idea
+- I would like to complete pages on the following:
+- Beekeeping equipment and schedule: this would go from the basic beekeeping equipment you need to get started to more specialist equipment for harvesting honey and treating varroa mites.
+- Swarm page: information on why bees swarm, how to prevent (discourage) it as a beekeeper, what to do if you find one and videos of swarms in action
+- Honey: information on how to harvest honey, when to harvest and how much to leave
+- Winter: many people ask me what bees do over winter, when it snows, etc, so I would address these questions on a separate page.
 
 ## Testing
 
@@ -92,32 +82,49 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-I deployed the site to GitHub pages for the first time on 13.12.2023. I followed the steps outlined in the guidance: 
-  - From the GitHub repository -> Settings tab
-  - Select pages 
-  - Set source to 'Deploy from Branch'
-  - Select main folder 
-  - Folder set to / (root)
- 
+I deployed the site to GitHub pages for the first time on 13.12.2023. I followed the steps outlined in the guidance:
+
+- From the GitHub repository -> Settings tab
+- Select pages
+- Set source to 'Deploy from Branch'
+- Select main folder
+- Folder set to / (root)
+
 The live link can be found here - <https://rich-p-rich.github.io/beekeeping-with-honey-bees-p1/>
- 
 
 ## Credits
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism.
+### Coding help:
 
-You can break the credits section up into Content and Media, depending on what you have included in your project.
+https://www.w3schools.com/ -> specifically ...
+https://stackoverflow.com/ -> specifically ...
+https://support.google.com/youtube/answer/171780?hl=en -> for embedding videos
+
+### Validators:
+
+https://validator.w3.org/
+https://jigsaw.w3.org/css-validator/
+
+### ReadMe advice:
+
+https://github.com/Code-Institute-Solutions/readme-template
+https://www.youtube.com/watch?v=Q66HZgkDSOo
+https://www.youtube.com/watch?v=HUBNt18RFbo (found on Slack community page)
+https://www.markdownguide.org/basic-syntax/#images-1
 
 ### Content
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The icons for the navbar 'burger' and the Intagram image in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The fonts were taken from [Google Fonts] https://fonts.google.com/
+- Inspiration for website colours and accessibility:
+  https://webflow.com/blog/elegant-color-palettes
+  https://visme.co/blog/website-color-schemes/
+  https://hookagency.com/blog/website-color-schemes/
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos and images used on the homepage, bee page and contact page are from www.shutterstock.com
+- Optimising photos for the website: https://tinypng.com/
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
 

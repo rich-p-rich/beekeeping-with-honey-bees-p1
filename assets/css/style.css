@@ -182,26 +182,27 @@ main {
     position: relative;
 }
 
-/*Honey Bees Page */
-
 #drone-queen-worker-img {
     /*header image at the top of the bee page*/
-    margin-top: 100px;
+    margin-top: 75px;
+    padding: 10px;
     min-height: 294px;
     min-width: 500px;
     width: auto;
-    padding: 10px;
+    object-fit: scale-down;
 }
 
 .bee-type-text {
+    /*for text on bee page*/
     margin-left: 30px;
     margin-right: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-align: left;
     width: 100%;
 }
 
+/*images on bee page from here*/
 #queen-bee-img {
     margin-top: 5px;
     min-width: 500px;
@@ -211,13 +212,6 @@ main {
     width: auto;
     height: auto;
     padding: 10px;
-}
-
-#the-queen-info {
-    margin-left: 30px;
-    margin-right: 20px;
-    text-align: justify;
-    width: 100%;
 }
 
 #worker-bee-img {
