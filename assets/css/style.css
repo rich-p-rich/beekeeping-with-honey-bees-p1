@@ -171,19 +171,19 @@ main {
 }
 
 #beekeep-benefits {
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-align: middle;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
     width: 100%;
+    text-align: left;
 }
 
 #intro-text {
     padding-top: 5px;
     padding-right: 5px;
     padding-left: 5px;
-    margin-right: 10px;
+    margin-right: 5px;
+    text-align: left;
 }
 
 /*Bees Page */
