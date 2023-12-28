@@ -170,42 +170,12 @@ main {
     position: center;
 }
 
-/*#introduction img {
-    max-width: 100%;
-    height: auto;
-}*/
-
-#honeybee-homepage-img {
-    max-width: 50%;
-    height: auto;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-#honeycomb-homepage {
-    max-width: 50%;
-    height: auto;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.row {
-    display: flex;
-}
-
-.column {
-    flex: 50%;
-    padding: 5px;
-}
-
 #beekeep-benefits {
     margin-left: 30px;
     margin-right: 30px;
     padding-left: 15px;
     padding-right: 15px;
-    text-align: left;
+    text-align: middle;
     width: 100%;
 }
 
@@ -238,21 +208,22 @@ main {
     position: relative;
 }
 
-#drone-queen-worker-img {
-    /*header image at the top of the bee page*/
-    margin-top: 75px;
-    padding: 10px;
-    min-height: 294px;
-    min-width: 500px;
-    width: auto;
-    object-fit: scale-down;
+#queens-workers-drones-info {
+    /*for intro text on bee page*/
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: left;
+    width: 100%;
 }
 
 .bee-type-text {
     /*for text on bee page*/
-    margin-left: 30px;
-    margin-right: 30px;
-    padding-left: 15px;
+    margin-left: 10px;
+    margin-right: 15px;
+    padding-left: 1px;
     padding-right: 15px;
     text-align: left;
     width: 100%;
@@ -291,16 +262,6 @@ main {
     height: auto;
     padding: 10px;
 }
-
-/*Video of queen laying an egg
-#queen-video {
-    margin-top: 5px;
-    max-width: 90%;
-    max-height: 616px;
-    width: auto;
-    height: auto;
-    padding: 10px;
-}*/
 
 /*Contact page*/
 
@@ -428,14 +389,4 @@ footer {
     main {
         margin-top: 75px;
     }
-
-    /* footer {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        right: 0;
-        background-color: #007CC7;
-        text: whitesmoke;
-    } */
 }
