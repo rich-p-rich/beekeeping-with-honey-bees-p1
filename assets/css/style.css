@@ -104,7 +104,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 #nav-toggle-label {
@@ -131,12 +131,12 @@ nav {
 main {
     /* Ensures main element fills screen and pushes the footer down*/
     flex: 1 0 auto;
-    margin-top: 135px;
+    margin-top: 110px;
 }
 
 /*Homepage hero section*/
 #hero {
-    height: 800px;
+    height: 200px;
     width: 100%;
     flex: 1 0 auto;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
@@ -148,11 +148,11 @@ main {
 /*homepage*/
     {
     background-color: rgba(255, 255, 128, .5);
-    font-size: 130%;
+    font-size: 100%;
     display: flex;
-    bottom: 30px;
+    bottom: 5px;
     width: 80%;
-    min-height: 200px;
+    /*min-height: 200px;*/
     padding-top: 40px;
     padding-left: 10px;
 }
@@ -161,17 +161,23 @@ main {
     color: #007CC7;
 }
 
-#introduction img {
+/*#introduction img {
     max-width: 100%;
     height: auto;
-}
+}*/
 
 #honeybee-homepage-img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 5px;
     padding-left: 10px;
     padding-right: 5px;
 }
 
 #intro-text {
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
     margin-right: 10px;
 }
 
@@ -217,11 +223,11 @@ main {
     width: 100%;
 }
 
-/*images on bee page from here*/
+/*images on bee page*/
 #queen-bee-img {
     margin-top: 5px;
-    min-width: 500px;
-    min-height: 385px;
+    /*min-width: 500px;
+    min-height: 385px;*/
     max-width: 90%;
     max-height: 616px;
     width: auto;
@@ -231,8 +237,8 @@ main {
 
 #worker-bee-img {
     margin-top: 5px;
-    min-width: 500px;
-    min-height: 385px;
+    /*min-width: 500px;
+    min-height: 385px;*/
     max-width: 90%;
     max-height: 616px;
     width: auto;
@@ -242,14 +248,24 @@ main {
 
 #drone-bee-img {
     margin-top: 5px;
-    min-width: 500px;
-    min-height: 385px;
+    /*min-width: 500px;
+    min-height: 385px;*/
     max-width: 90%;
     max-height: 616px;
     width: auto;
     height: auto;
     padding: 10px;
 }
+
+/*Video of queen laying an egg
+#queen-video {
+    margin-top: 5px;
+    max-width: 90%;
+    max-height: 616px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}*/
 
 /*Contact page*/
 
@@ -266,14 +282,6 @@ main {
     margin-top: 5px;
     padding-left: 15px;
     padding-right: 5px;
-}
-
-input:required {
-    border-color: black;
-}
-
-input:invalid {
-    border-color: red;
 }
 
 #useful-links {
@@ -313,8 +321,8 @@ footer {
     color: whitesmoke;
 }
 
-/*Media query: devices with 350px to 767px and up: to account for changing header size */
-@media screen and (min-width: 350px) and (max-width: 767px) {
+/*Media query: devices with 378px to 767px and up: to account for changing header size */
+@media screen and (min-width: 378px) and (max-width: 767px) {
     main {
         margin-top: 60px;
     }
