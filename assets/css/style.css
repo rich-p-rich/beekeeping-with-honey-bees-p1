@@ -142,7 +142,10 @@ main {
     position: relative;
 }
 
-#cover-text {
+#cover-text
+
+/*homepage*/
+    {
     background-color: rgba(255, 255, 128, .5);
     font-size: 130%;
     display: flex;
@@ -262,6 +265,15 @@ main {
     margin-top: 5px;
     padding-left: 15px;
     padding-right: 5px;
+}
+
+#useful-links {
+    /*for links on contact page*/
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
 }
 
 /*footer*/
