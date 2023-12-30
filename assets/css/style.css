@@ -150,6 +150,7 @@ main {
     font-size: 130%;
     position: absolute;
     top: 100px;
+    right: 10px;
     width: 80%;
     min-height: 40px;
     padding-top: 15px;
@@ -311,10 +312,14 @@ footer {
     margin-bottom: 5px;
 }
 
-/*Media query: devices with 378px to 767px and up: to account for changing header size */
-@media screen and (min-width: 378px) and (max-width: 767px) {
+/*Media query: devices with 373px to 767px and up: to account for changing header size */
+@media screen and (min-width: 373px) and (max-width: 767px) {
     main {
         margin-top: 30px;
+    }
+
+    #cover-text {
+        top: 50px;
     }
 }
 
