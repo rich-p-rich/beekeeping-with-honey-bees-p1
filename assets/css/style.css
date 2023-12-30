@@ -131,14 +131,17 @@ nav {
 main {
     /* Ensures main element fills screen and pushes the footer down*/
     flex: 1 0 auto;
-    margin-top: 110px;
+    margin-top: 10px;
 }
 
 /*Homepage hero section*/
 #hero {
-    height: auto;
+    height: 600px;
     width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
     flex: 1 0 auto;
+    margin-top: 20px;
+    position: relative;
 }
 
 #cover-text
@@ -146,26 +149,18 @@ main {
 /*homepage*/
     {
     background-color: rgba(255, 255, 128, .5);
-    font-size: 100%;
+    font-size: 130%;
+    position: absolute;
     display: flex;
-    bottom: 5px;
+    bottom: 10px;
     width: 80%;
-    /*min-height: 200px;*/
+    min-height: 30px;
     padding-top: 15px;
     padding-left: 10px;
 }
 
 #cover-text>h2 {
     color: #007CC7;
-}
-
-#beehive-homepage-img {
-    max-width: 100%;
-    height: auto;
-    padding-top: 15px;
-    padding-left: 5px;
-    padding-right: 5px;
-    position: center;
 }
 
 #beekeep-benefits {
@@ -321,7 +316,7 @@ footer {
 /*Media query: devices with 378px to 767px and up: to account for changing header size */
 @media screen and (min-width: 378px) and (max-width: 767px) {
     main {
-        margin-top: 60px;
+        margin-top: 30px;
     }
 }
 
@@ -359,7 +354,7 @@ footer {
     }
 
     main {
-        margin-top: 150px;
+        margin-top: 30px;
     }
 
     #menu {
@@ -388,6 +383,6 @@ footer {
 /* Media query: small laptops and larger (1024px and up) */
 @media screen and (min-width: 1024px) {
     main {
-        margin-top: 75px;
+        margin-top: 20px;
     }
 }
