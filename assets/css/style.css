@@ -162,11 +162,6 @@ main {
     color: #007CC7;
 }
 
-#benefits {
-    width: 90%;
-    margin: 20% auto;
-}
-
 #beekeeping-benefits h2 {
     margin-bottom: 5px;
     text-align: center;
@@ -184,8 +179,13 @@ main {
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #007CC7;
     margin: 5px 0;
+}
+
+#benefits {
+    width: 90%;
+    margin: 5% auto;
 }
 
 #circle-cover-bg {
@@ -208,7 +208,7 @@ hr {
 #intro-text {
     padding-top: 5px;
     padding-right: 5px;
-    padding-left: 5px;
+    padding-left: 20px;
     margin-right: 5px;
     text-align: left;
 }
@@ -411,6 +411,23 @@ footer {
         font-size: 140%;
     }
 
+    /* Homepage benefits section */
+    #benefits-you,
+    #benefits-nature {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-you>div #benefits-nature>div {
+        width: 75%;
+    }
+
+    #benefits-nature>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
 }
 
 /* Media query: small laptops and larger (1024px and up) */
@@ -424,5 +441,31 @@ footer {
         right: 80px;
         width: 300px;
         font-size: 150%;
+    }
+
+    /*Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits>div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #benefits-nature {
+        order: 1;
+    }
+
+    #benefits-nature>div {
+        align-self: flex-start;
+    }
+
+    #benefits-you>div {
+        align-self: flex-end;
     }
 }
