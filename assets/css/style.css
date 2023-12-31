@@ -296,17 +296,19 @@ main {
 
 /*Contact page*/
 
-#contact-page-banner {
+#contact-bg {
     /*banner image at the top of the contact page*/
-    margin-top: 50px;
-    min-height: 294px;
-    min-width: 500px;
-    width: auto;
-    padding: 10px;
+    height: 600px;
+    width: 100%;
+    background: url("../images/contact-page-banner.webp") no-repeat center center/cover;
+    flex: 1 0 auto;
+    margin-top: 100px;
+    position: relative;
 }
 
+
 #contact {
-    margin-top: 5px;
+    margin-top: 40px;
     padding-left: 15px;
     padding-right: 5px;
 }
@@ -321,12 +323,20 @@ main {
 }
 
 /*contact thank you page*/
-#Thank you image {
+#Thank-you-page {
+    height: 100%;
+    width: 100%;
+    flex: 1 0 auto;
+    background-color: whitesmoke;
+}
+
+#Thank-you-image {
+    margin-top: 300px;
     image: url("../images/thank-you-page-image.webp");
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
-    /* Turn the image into a circle */
+    /* Turn the image into an oval */
     border-radius: 30%;
     max-width: 300px;
     max-height: 300px;
