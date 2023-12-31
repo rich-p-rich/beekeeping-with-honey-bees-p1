@@ -338,16 +338,24 @@ footer {
     margin-bottom: 5px;
 }
 
-/*Media query: devices with 373px to 767px and up: to account for changing header size */
-@media screen and (min-width: 373px) and (max-width: 767px) {
+/*Media query: devices with 373px to 378px: to account for changing header size */
+@media screen and (min-width: 373px) and (max-width: 378px) {
     main {
         margin-top: 30px;
     }
 
     #cover-text {
+        top: 70px;
+    }
+}
+
+/*Media query: devices with screen width 378 - 768px */
+@media screen and (min-width: 378px) {
+    #cover-text {
         top: 50px;
     }
 }
+
 
 /*Media query: devices with minimum 500px width and up (to position text) */
 @media screen and (min-width: 500px) {
@@ -405,7 +413,7 @@ footer {
     }
 
     #cover-text {
-        margin-top: 15px;
+        top: 125px;
         right: 80px;
         width: 300px;
         font-size: 140%;
@@ -428,6 +436,13 @@ footer {
         align-self: flex-end;
     }
 
+}
+
+/* Media query: tablets with screen size 812px and larger */
+@media screen and (min-width: 812px) {
+    #cover-text {
+        top: 40px;
+    }
 }
 
 /* Media query: small laptops and larger (1024px and up) */
