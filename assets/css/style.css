@@ -336,8 +336,9 @@ main {
 }
 
 /*contact thank you page*/
-#Thank-you-page {
-    margin-top: 200px;
+
+#thank-you-page {
+    margin-top: 600px;
     height: 100%;
     width: 100%;
     flex: 1 0 auto;
@@ -346,15 +347,39 @@ main {
 
 #Thank-you-image {
     margin-top: 300px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#thankyou-text {
+    margin-left: 5px;
+    margin-right: 15px;
+    padding-left: 5px;
+    padding-right: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+/*Thank-you-page {
+    margin-top: 200px;
+    height: 100%;
+    width: 100%;
+    flex: 1 0 auto;
+    background-color: whitesmoke;
+}
+
+#Thank-you-image {
     image: url("../images/thank-you-page-image.webp");
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
-    /* Turn the image into an oval */
+    margin-top: 600px;
+    /* Turn the image into an oval 
     border-radius: 30%;
     max-width: 300px;
     max-height: 300px;
-}
+}*/
 
 /*footer*/
 footer {
