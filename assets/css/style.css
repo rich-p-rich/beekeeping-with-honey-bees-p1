@@ -386,7 +386,7 @@ footer {
 /*Media query: devices with 373px to 378px: to account for changing header size */
 @media screen and (min-width: 373px) and (max-width: 378px) {
     main {
-        margin-top: 30px;
+        margin-top: 25px;
     }
 
     #cover-text {
@@ -396,6 +396,10 @@ footer {
 
 /*Media query: devices with screen width 378 - 768px */
 @media screen and (min-width: 378px) {
+    #bee-hero-img {
+        margin-top: 28px;
+    }
+
     #cover-text {
         top: 50px;
     }
