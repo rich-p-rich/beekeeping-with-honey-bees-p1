@@ -443,12 +443,6 @@ footer {
 
 /*Media query: devices with minimum 500px width and up (to position text) */
 @media screen and (min-width: 500px) {
-    .container {
-        display: flex;
-        align-items: left;
-        justify-content: left;
-    }
-
     .image {
         flex-basis: 40%;
     }
