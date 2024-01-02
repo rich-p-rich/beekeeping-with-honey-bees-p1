@@ -241,7 +241,7 @@ main {
     width: 100%;
     background: url("../images/bee-hero-img.webp") no-repeat center center/cover;
     flex: 1 0 auto;
-    margin-top: 100px;
+    margin-top: 98px;
     position: relative;
 }
 
@@ -254,6 +254,10 @@ main {
     padding-right: 15px;
     text-align: left;
     width: 100%;
+}
+
+.bee-page-headers {
+    text-align: center;
 }
 
 .bee-type-text {
@@ -275,6 +279,7 @@ main {
     max-height: 616px;
     width: auto;
     height: auto;
+    border-radius: 30%;
     padding: 10px;
 }
 
@@ -286,6 +291,7 @@ main {
     max-height: 616px;
     width: auto;
     height: auto;
+    border-radius: 30%;
     padding: 10px;
 }
 
@@ -297,6 +303,7 @@ main {
     max-height: 616px;
     width: auto;
     height: auto;
+    border-radius: 30%;
     padding: 10px;
 }
 
@@ -473,10 +480,22 @@ footer {
         text-align: end;
         align-self: flex-end;
     }
+
+    /*To center bee images on bee page*/
+    .bee-type-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 }
 
 /* Media query: tablets with screen size 812px and larger */
 @media screen and (min-width: 812px) {
+    #bee-hero-img {
+        margin-top: 48px;
+    }
+
     #cover-text {
         top: 40px;
     }
@@ -522,4 +541,16 @@ footer {
     #benefits-you>div {
         align-self: flex-end;
     }
+
+    /*Bee page: to position text to the right of the images
+    #queen-bee-img {
+        float: left;
+        margin-right: 20px;
+    }*/
+
+    .bee-type-text {
+        margin-left: 20px;
+    }
+
+
 }
