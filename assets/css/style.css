@@ -162,16 +162,22 @@ main {
     color: #007CC7;
 }
 
+#why {
+    text-align: center;
+}
+
 #beekeeping-benefits h2 {
     margin-bottom: 5px;
     text-align: center;
-    font-size: 230%
+    font-size: 250%;
 }
 
 #benefits-you>div,
 #benefits-nature>div {
     line-height: 20px;
     margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #beekeeping-benefits p {
@@ -233,7 +239,7 @@ main {
 #bee-hero-img {
     height: 600px;
     width: 100%;
-    background: url("../images/bee-types-hero.webp") no-repeat center center/cover;
+    background: url("../images/bee-hero-img.webp") no-repeat center center/cover;
     flex: 1 0 auto;
     margin-top: 100px;
     position: relative;
@@ -467,7 +473,6 @@ footer {
         text-align: end;
         align-self: flex-end;
     }
-
 }
 
 /* Media query: tablets with screen size 812px and larger */
@@ -491,16 +496,18 @@ footer {
     }
 
     /*Reasons section */
-    #benefits {
+    #beekeeping-benefits {
         display: flex;
         flex-direction: row;
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
-    #benefits>div {
+    #beekeeping-benefits>div {
         flex: 1;
     }
 
-    #benefits-image {
+    #benefits-nature {
         order: 0;
     }
 
