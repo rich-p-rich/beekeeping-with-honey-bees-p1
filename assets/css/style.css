@@ -258,6 +258,9 @@ main {
 
 .bee-page-headers {
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bee-type-text {
@@ -338,26 +341,27 @@ main {
 /*contact thank you page*/
 
 #thank-you-page {
-    margin-top: 600px;
+    margin-top: 60px;
     height: 100%;
     width: 100%;
     flex: 1 0 auto;
     background-color: whitesmoke;
 }
 
-#Thank-you-image {
-    margin-top: 300px;
+#thankyou-img {
+    margin-top: 80px;
+    margin: 0 auto;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 #thankyou-text {
-    margin-left: 5px;
+    margin-left: 15px;
     margin-right: 15px;
-    padding-left: 5px;
+    padding-left: 15px;
     padding-right: 15px;
-    text-align: left;
+    text-align: center;
     width: 100%;
 }
 
@@ -519,9 +523,10 @@ footer {
     /*Bee page image alignment*/
     .bee-type-img {
         /*To center bee images on bee page*/
+        vertical-align: middle;
         display: block;
         padding-left: 5px;
-        padding-right: 15px;
+        padding-right: 5px;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
@@ -585,18 +590,12 @@ footer {
         align-self: flex-end;
     }
 
-    /*Bee page: to position text to the right of the images
-    #queen-bee-img {
-        float: left;
-        margin-right: 20px;
-    }*/
-
     /*To center bee images on bee page*/
-    .bee-type-img {
+    #bee-type-img {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
+        width: 50%;
     }
 
     .bee-type-text {
