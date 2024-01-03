@@ -119,12 +119,6 @@ nav {
     width: 100%;
 }
 
-/*.left {
-    display: block;
-    float: left;
-    margin-right: auto;
-}*/
-
 /* Main content */
 
 /*main*/
@@ -290,10 +284,15 @@ main {
 }
 
 /*images on bee page*/
+
+.bee-type-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 #queen-bee-img {
     margin-top: 5px;
-    /*min-width: 500px;
-    min-height: 385px;*/
     max-width: 90%;
     max-height: 616px;
     width: auto;
@@ -304,8 +303,6 @@ main {
 
 #worker-bee-img {
     margin-top: 5px;
-    /*min-width: 500px;
-    min-height: 385px;*/
     max-width: 90%;
     max-height: 616px;
     width: auto;
@@ -316,8 +313,6 @@ main {
 
 #drone-bee-img {
     margin-top: 5px;
-    /*min-width: 500px;
-    min-height: 385px;*/
     max-width: 90%;
     max-height: 616px;
     width: auto;
@@ -514,17 +509,6 @@ footer {
         align-self: flex-end;
     }
 
-    /*Bee page image alignment*/
-    .bee-type-img {
-        /*To center bee images on bee page*/
-        display: block;
-        padding-left: 5px;
-        padding-right: 5px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-
     #contact-bg {
         margin-top: 28px;
     }
@@ -588,14 +572,6 @@ footer {
 
     #benefits-you>div {
         align-self: flex-end;
-    }
-
-    /*To center bee images on bee page*/
-    #bee-type-img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
     }
 
     .bee-type-text {
