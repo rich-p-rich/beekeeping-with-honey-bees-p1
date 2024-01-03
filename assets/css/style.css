@@ -497,7 +497,6 @@ footer {
     /*Bee page image alignment*/
     .bee-type-img {
         /*To center bee images on bee page*/
-        vertical-align: middle;
         display: block;
         padding-left: 5px;
         padding-right: 5px;
