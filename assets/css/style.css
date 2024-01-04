@@ -360,6 +360,7 @@ main {
     height: 100%;
     width: 100%;
     flex: 1 0 auto;
+    background-color: whitesmoke;
 }
 
 #thankyou-img {
@@ -368,6 +369,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: whitesmoke;
 }
 
 #thankyou-text {
@@ -375,6 +377,7 @@ main {
     padding-right: 15px;
     text-align: center;
     width: 100%;
+    background-color: whitesmoke;
 }
 
 /*footer*/
