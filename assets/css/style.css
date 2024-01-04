@@ -360,23 +360,17 @@ main {
     height: 100%;
     width: 100%;
     flex: 1 0 auto;
-    background-color: whitesmoke;
 }
 
 #thankyou-img {
-    margin-top: 35px;
+    margin-top: 20px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: whitesmoke;
-    margin-top: 40px;
 }
 
 #thankyou-text {
-    background-color: whitesmoke;
-    margin-left: 15px;
-    margin-right: 15px;
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
