@@ -7,7 +7,10 @@ I hope to answer such questions in a clear and interesting manner and my target 
 
 ![Am I responsive](documentation/documentation-images/am-i-responsive.PNG)
 
-A copy of my Balsamiq Wireframe can be found in the documentation folder.
+- A copy of my Balsamiq Wireframe can be found in the documentation folder.
+
+## Orientation
+- I have followed the 'mobile first' principle when designing this site to ensure that it works fine on mobile first, then laptops and then tablets.
 
 ## Features
 
@@ -65,6 +68,7 @@ I would like to complete pages on the following:
 - Swarm page: information on why bees swarm, how to prevent (discourage) it as a beekeeper, what to do if you find one and videos of swarms in action
 - Honey: information on how to harvest honey, when to harvest and how much to leave, the different types of honey and how to store it.
 - Winter: many people ask me what bees do over winter, when it snows, etc, so I would address these questions on a separate page.
+- I would also like to be able to show better-resolution images on larger screens, so this is a feature I would implement in the next step.
 
 ## Validator Testing
 
