@@ -170,6 +170,7 @@ I encountered many difficulties and bugs while putting this website together. So
 ## Unfixed Bugs
 
 - I found on Firefox testing that the margins on my bee page and contact page are not as good as they are on the Chome: this is specifically to do with the margin between the header and the 'queens, workers and drones' H2 text (all device sizes), the text and the contact form on the contact page (mobile size) and the contact form and the send button (all device sizes). Although this detracts slightly from the presentation of the site, I do not regard it as a critical fix before submitting this project. It is however something I would like to fix if I should take this website forward and publish it.
+- ![Firefox Contact page no gap](documentation/documentation-images/ff-contact-page-no-gap-send-button.PNG)
 
 ## Deployment
 
