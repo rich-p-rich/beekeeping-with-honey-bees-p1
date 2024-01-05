@@ -136,6 +136,7 @@ main {
     flex: 1 0 auto;
     margin-top: 20px;
     position: relative;
+    /*image credit pexels-timothy-paule-ii-2749847 */
 }
 
 /*Cover text for homepage*/
@@ -197,6 +198,7 @@ hr {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+    /*image credit Richard Ricot 2023 */
 }
 
 #benefits-image {
@@ -228,6 +230,7 @@ hr {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+    /*image credit shutterstock_1949855746 */
 }
 
 
@@ -255,6 +258,7 @@ main {
     flex: 1 0 auto;
     margin-top: 98px;
     position: relative;
+    /*image credit pexels-pixabay-53444_1 */
 }
 
 #queens-workers-drones-info {
@@ -299,6 +303,7 @@ main {
     height: auto;
     border-radius: 30%;
     padding: 10px;
+    /*image credit Stock Photo ID: 137833922*/
 }
 
 #worker-bee-img {
@@ -309,6 +314,7 @@ main {
     height: auto;
     border-radius: 30%;
     padding: 10px;
+    /*image credit Richard Ricot 2023 */
 }
 
 #drone-bee-img {
@@ -319,6 +325,7 @@ main {
     height: auto;
     border-radius: 30%;
     padding: 10px;
+    /*image credit Stock Photo ID: 1810048666*/
 }
 
 /*Contact page*/
@@ -331,6 +338,7 @@ main {
     flex: 1 0 auto;
     margin-top: 98px;
     position: relative;
+    /*image credit pexels-johann-piber-702931*/
 }
 
 #contact {
@@ -370,6 +378,7 @@ main {
     align-items: center;
     justify-content: center;
     background-color: whitesmoke;
+    /*image credit pexels-arthur-brognoli-2260936*/
 }
 
 #thankyou-text {

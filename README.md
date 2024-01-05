@@ -10,6 +10,7 @@ I hope to answer such questions in a clear and interesting manner and my target 
 - A copy of my Balsamiq Wireframe can be found in the documentation folder.
 
 ## Orientation
+
 - I have followed the 'mobile first' principle when designing this site to ensure that it works fine on mobile first, then laptops and then tablets.
 
 ## Features
@@ -140,6 +141,8 @@ As can be seen the first batch of testing yielded a performance score of between
 | Contact page - contact form - name & email        | Name and email are mandatory                        | Pass   |
 | Contact page - contact form - name & email        | Message is optional                                 | Pass   |
 | Contact page - contact form - click send          | Goes to Thank You page                              | Pass   |
+| Contact page - useful links - click on them       | Each link goes to the right destination             | Pass   |
+| Contact page - useful links - click on them       | Each link should open in a new tab                  | Pass   |
 | Thank you page navbar - click burger bar (mobile) | Opens navigation                                    | Pass   |
 | Thank you page navbar - click Home button         | Goes to home page page                              | Pass   |
 | Thank you page navbar - click Bees button         | Goes to bee page                                    | Pass   |
