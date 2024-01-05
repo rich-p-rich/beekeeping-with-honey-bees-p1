@@ -7,6 +7,8 @@ I hope to answer such questions in a clear and interesting manner and my target 
 
 ![Am I responsive](documentation/documentation-images/am-i-responsive.PNG)
 
+A copy of my Balsamiq Wireframe can be found in the documentation folder.
+
 ## Features
 
 - **Navigation Bar**
@@ -57,6 +59,7 @@ I would like to complete pages on the following:
 
 - Homepage: two additional images to display either side of the honey bee image to fill out the space either side of it on larger screens
   ![Laptop space either side of bee](documentation/documentation-images/homepage-bee-improvement.PNG)
+- Beekeeping page: I would like to implement a feature on mobile screens whereby you tap the image to reveal the 'pass notes' text, as I think this would be more user-friendly.
 - Beekeeping equipment and schedule: this would go from the basic beekeeping equipment you need to get started to more specialist equipment for harvesting honey and treating varroa mites which are a major pest and long-term threat to the survival of the European Honey Bee.
 - A gallery of images and videos about bees and beekeeping, together with videos of my bees in their hives.
 - Swarm page: information on why bees swarm, how to prevent (discourage) it as a beekeeper, what to do if you find one and videos of swarms in action
