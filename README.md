@@ -5,7 +5,7 @@ with the honey bee. I have been beekeeping for just over five years and I well r
 
 I hope to answer such questions in a clear and interesting manner and my target audience is people with a general / casual interest in bees and beekeeping, and nature in general. Hopefully the site will entertain the more experienced beekeeper along the way, but they are not my target audience at this point; that would be my next step: exploring and presenting more specialised beekeeping topics that would attract practising beekeepers as well.
 
-![Image of my website](documentation/documentation-images/responsive-views.PNG "Responsive Views")
+![Am I responsive](documentation/documentation-images/am-i-responsive.PNG)
 
 ## Features
 
@@ -55,6 +55,8 @@ I hope to answer such questions in a clear and interesting manner and my target 
 
 I would like to complete pages on the following:
 
+- Homepage: two additional images to display either side of the honey bee image to fill out the space either side of it on larger screens
+  ![Laptop space either side of bee](documentation/documentation-images/homepage-bee-improvement.PNG)
 - Beekeeping equipment and schedule: this would go from the basic beekeeping equipment you need to get started to more specialist equipment for harvesting honey and treating varroa mites which are a major pest and long-term threat to the survival of the European Honey Bee.
 - A gallery of images and videos about bees and beekeeping, together with videos of my bees in their hives.
 - Swarm page: information on why bees swarm, how to prevent (discourage) it as a beekeeper, what to do if you find one and videos of swarms in action
@@ -76,6 +78,9 @@ I would like to complete pages on the following:
 
 I tested the website withe the Dev Tools Lighthouse tester and the performce for both mobile and desktop is now above 90 for all pages. I have included screenshots of all test results in the documentation folder -> lighthouse testing subfolder.
 As can be seen the first batch of testing yielded a performance score of between 60 and 70. This was due to the size of the images I was using: although I had compressed the images using tinypng.com, the images were still too big. Therefore, I resized all of my images with iloveimg.com, and then converted them to webpt images with cloudconvert.com. After I replaced the old website images with this new ones, the lighthouse score went up above 90 in each case.
+
+![Lighthouse mobile](documentation/lighthouse-testing-images/lighthouse-mob-2.PNG)
+![Lighthouse desktop](documentation/lighthouse-testing-images/lighthouse-desk-2.PNG)
 
 ## Testing: appearance and functionality
 
@@ -150,9 +155,13 @@ As can be seen the first batch of testing yielded a performance score of between
 I encountered many difficulties and bugs while putting this website together. Some of the noteworthy ones are as follows:
 
 - I originally thought adding a honeycomb-style background to the website pages would be a good idea. However, the images proved slow to load and did not interact well with the content; I tried three different styles but the text contrast was sometimes poor, the image content did not always match well with the background and they required extensive additional media queries to have them work properly. I decided that although they looked good, they did not work well on the website and deleted them in favour of a plain 'whitesmoke' background.
+- ![Old background](documentation/documentation-images/homepage-old-background.PNG)
 - I had trouble making my footer stick to the bottom of all the pages. I originally thought it would be a nice idea to have the footer always visible when scrolling on a mobile device, but the reality was not good: it distracted from the body of the text and my implementation moving from mobile to tablet and desktop did not work well. I struggled to make the footer work until I realised that I had not properly articulated the 'min-height' value in CSS for 100vh. Once I had done this, the footer worked properly.
 - Margin-top: I realised in testing that the margin top was inconsistent when the text in the header went over two lines. I solved this by creating media queries for quite niche sizes (e.g. 373px - 378px) because otherwise the cover text was either too low down, or covered by the header
-- Header over-hang on the contact page: I had help from the tutoring team to help me resolve a problem on my contact page where the header was hanging over on the right of the page by just a few pixels. After trying a number of solutions, the tutoring team suggested that I remove the margin of some text in the body which solved the prolem immediately.
+- Header over-hang on the contact page: I had two problems here. The first was fairly simple - I just had to reduce the width of the comments box. Previously, it looked like this:
+- ![Contact page overhang 1](documentation/documentation-images/contact-page-contactbox.PNG)
+- I had help from the tutoring team to help me resolve a problem on my contact page where the header was hanging over on the right of the page by just a few pixels. After trying a number of solutions, the tutoring team suggested that I remove the margin of some text in the body which solved the prolem immediately.
+  ![Contact page overhang 2](documentation/documentation-images/contact-page-contactbox-margin.PNG)
 - I also got severely stuck with a GitMerge problem which the tutoring service helped me with, walking me through the steps back to normality.
 
 ## Unfixed Bugs
